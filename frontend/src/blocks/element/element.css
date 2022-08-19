@@ -1,0 +1,20 @@
+.element {
+  position: relative;
+  max-width: 282px;
+  min-height: 361px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .element:nth-child(-n+2) {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .element:nth-child(2) {
+    margin-top: 20px;
+  }
+}

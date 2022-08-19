@@ -1,0 +1,7 @@
+.popup__input {
+  position: relative;
+}
+
+.popup__input:nth-child(2n) {
+    margin-bottom: 21px;
+}

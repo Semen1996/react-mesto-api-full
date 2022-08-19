@@ -1,0 +1,27 @@
+.info-tool-tip__close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../../images/CloseIcon.png);
+  background-size: contain;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.info-tool-tip__close:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .info-tool-tip__close {
+    top: -36px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+  }
+}

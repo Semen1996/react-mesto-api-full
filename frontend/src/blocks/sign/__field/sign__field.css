@@ -1,0 +1,19 @@
+.sign__field {
+  height: 38px;
+  padding: 0;
+  margin-bottom: 17px;
+  background-color: #000;
+  color: #CCC;
+  border: none;
+  border-bottom: 2px solid #CCCCCC;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .sign__field {
+    height: 27px;
+    margin-bottom: 30px;
+  }
+}
